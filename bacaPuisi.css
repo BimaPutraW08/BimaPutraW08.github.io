@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+.isi{
+    padding-top: 20px;
+    height: 1000px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url('./img/buku2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.bacaPuisi{
+    top: 15%;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    position: absolute;
+    transform: translateY(-50%);
+    color: lightblue;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.bacaPuisi h4{
+    text-shadow: black ;
+}
+button{
+    width: 230px;
+    height: 180px;
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: lightblue;
+    background: transparent;
+    border: 3px solid lightblue;
+    position: relative;
+    cursor: pointer;
+    border-radius: 30px;
+    overflow: hidden;
+}
+span{
+    height: 100%;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    position: absolute;
+    border-radius: 10px;
+    background: lightblue;
+}
+button:hover span{
+    width: 90%;
+}
+button:hover{
+    border: 6px solid rgb(134, 208, 233);
+
+}
+.button{
+    color: aliceblue;
+    cursor: pointer;
+    padding-top: 20%;
+}
+.button img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+.cursor {
+    width: 2rem;
+    height: 2rem;
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    mix-blend-mode: difference;
+}  
